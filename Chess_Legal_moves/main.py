@@ -4,7 +4,7 @@ It is responsible for handling the user input and displaying the current BoardSt
 """
 
 import pygame as p
-from Chess import ChessEngine
+from Chess_Legal_moves import ChessEngine
 
 Width = Height = 800
 # This number is a power of 2 and allows easier operations
