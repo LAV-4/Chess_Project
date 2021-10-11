@@ -4,10 +4,9 @@ It is responsible for handling the user input and displaying the current BoardSt
 """
 
 import pygame as p
-from Chess import ChessEngine
+from Chess_Free_pieces import ChessEngine
 
 Width = Height = 800
-# This number is a power of 2 and allows easier operations
 Dimension = 8
 # A chessboard is a 8x8 grid
 TileSize = Height // Dimension
